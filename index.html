@@ -1,1 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tez Gurung Portfolio</title>
 
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:#020617;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+.hero{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+height:90vh;
+text-align:center;
+padding:20px;
+}
+
+.hero img{
+width:150px;
+height:150px;
+border-radius:50%;
+border:4px solid #38bdf8;
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.social{
+margin-top:20px;
+}
+
+.social a{
+margin:0 10px;
+font-size:24px;
+text-decoration:none;
+color:white;
+}
+
+.social a:hover{
+color:#38bdf8;
+}
+
+.section{
+padding:60px 10%;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+}
+
+</style>
+
+<!-- icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+<h2>Tez Gurung</h2>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<img src="profile.jpg" alt="profile photo">
+
+<h1>Hello I'm <span>Tez Gurung</span></h1>
+
+<p>
+Student from Nepal interested in investing, trading,
+and digital content creation.
+</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+</section>
+
+
+<section class="section" id="about">
+
+<h2>About Me</h2>
+
+<div class="cards">
+
+<div class="card">
+I am a motivated student passionate about learning new skills.
+My interests include financial markets, YouTube automation,
+and online entrepreneurship.
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section" id="skills">
+
+<h2>Skills</h2>
+
+<div class="cards">
+
+<div class="card">Communication</div>
+
+<div class="card">HTML & Web Basics</div>
+
+<div class="card">Content Research</div>
+
+<div class="card">Trading & Investing Basics</div>
+
+</div>
+
+</section>
+
+
+<section class="section" id="projects">
+
+<h2>Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>YouTube Automation</h3>
+Researching niches and video scripts.
+</div>
+
+<div class="card">
+<h3>Investment Learning</h3>
+Studying stock market fundamentals.
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Tez Gurung</p>
+
+</footer>
+
+</body>
+</html>
